@@ -46,7 +46,6 @@ public class SortingProgram {
                         printArray(quickSortArray);
                         
                         updateListFromSortedArray(numbers, quickSortArray);
-                        System.out.println("Daftar angka telah diperbarui dan tetap tersortir.");
                         
                         System.out.println("Waktu eksekusi Quick Sort: " + 
                             ((endTime - startTime) / 1000000.0) + " ms");
